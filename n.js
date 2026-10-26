@@ -52,6 +52,11 @@ const checkWinner = () => {
                     box.disabled = true;
                 });
                 if (p1 === "O") {
+                    
+// =============================
+// inserting svg code of trophy
+// =============================
+
                     winner.innerHTML = `<p id="t"><span style="position:relative; top:4rem;"><svg class="trophy" width="155" height="150" viewBox="0 0 500 550"
     xmlns="http://www.w3.org/2000/svg">
 
@@ -263,6 +268,11 @@ const checkWinner = () => {
                     winner.classList.add("show");
                     winner.classList.remove("hide");
                 } else {
+
+// ==============================
+// inserting svg code of trophy
+// ===============================
+
                     winner.innerHTML = `<p id="t"><span style="position:relative; top:4rem;"><svg class="trophy" width="155" height="150" viewBox="0 0 500 550"
     xmlns="http://www.w3.org/2000/svg">
 
